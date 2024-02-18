@@ -1,0 +1,94 @@
+<html>
+
+<head> 
+
+	<title>fun</title>
+
+</head>
+
+<body>
+
+	<script>
+
+	let st, end, res, opt;
+
+	function evalNumbers(){
+
+	document.write("Enter option 1 is ADD " + "<br>");
+
+	document.write("Enter option 2 is SUBTRACT " + "<br>");
+
+	document.write("Enter option 3 is MULTIPLY " + "<br>");
+
+	document.write("Enter option 4 is DIVIDE " + "<br>");
+
+	document.write("Enter option 5 is MODULUS " + "<br>");
+
+	opt = parseInt(prompt(" Enter your choice : "));
+
+	if(opt>0 && opt<6){
+
+	st = parseInt(prompt(" Enter the First Number : "));
+
+	end = parseInt(prompt(" Enter the Second Number : "));
+
+	}
+
+	switch(opt){
+
+	case 1:
+
+	res = st + end;
+
+	document.write(" \n Result is : " +res);
+
+	break;
+
+	case 2:
+
+	res = st - end;
+
+	document.write(" \n Result is : " +res);
+
+	break;
+
+	case 3:
+
+	res = st * end;
+
+	document.write(" \n Result is : " +res);
+
+	break;
+
+	case 4:
+
+	res = st / end;
+
+	document.write(" \n Result is : " +res);
+
+	break;
+
+	case 5:
+
+	res = st % end;
+
+	document.write(" \n Result is : " +res);
+
+	break;
+
+	default:
+
+	document.write(" Invalid operation ");
+
+	}
+
+	}
+
+	evalNumbers();
+
+	</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+h2{
+text-align:center;
+color:#FEC73A;
+}
+body{
+background-image:url("https://wallpaperaccess.com/full/43867.jpg");
+background-size:cover;
+}
+button{
+border:2px;
+width:400px;
+border-radius:20px;
+padding:15px;
+margin:10px ;
+background-color:#EFC79E;
+}

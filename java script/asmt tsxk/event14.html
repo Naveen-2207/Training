@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+	<title></title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<form>
+
+	<h1>Lisiting Data from User</h1>
+
+	<label for="dob">D.O.B</label/>
+
+	<input type="date" id="input2"/>
+
+	<input type="button" onClick="but()" value="click"/>
+
+	<label for="text">Rnum</label>
+
+	<input type="text" id="input3"/> 
+
+	<label for="text">Rnum</label>
+
+	<input type="text" id="input4"/>
+ 
+	</form>
+
+	</div>
+
+	<script>
+
+	function but(){
+
+	let b = document.getElementById("input2").value;
+
+	let c = new Date(b)
+
+	let d = c.getDate()+5;
+
+	c.setDate(d);
+
+	document.getElementById("input3").value = c.toLocaleDateString();
+
+	let e = c.getDate()-10;
+
+	c.setDate(e);
+
+	document.getElementById("input4").value = c.toLocaleDateString();
+
+	input2.value = ""; 
+
+	}
+
+	</script>
+
+</body>
+
+</html>
+
+	

@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+   <!DOCTYPE html>
+
+    <title>Qualities</title>
+
+</head>
+
+<body>
+	<h1>Naveenkumar M</h1>
+    	<h2>full stock developer</h2>
+	<h3>Kgisl campus</h3>
+     	<h4>Saravanampatti</h4>
+	<h5>Coimbatore</h5>
+	<h6>Tamilnadu</h6> 
+   
+</body>
+
+</html>

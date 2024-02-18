@@ -1,0 +1,19 @@
+.nav {
+    color: rgb(8, 0, 0);
+    height: 210px; width: 200px;
+    overflow: hidden; 
+    box-shadow: 10px 10px 10px 10px blue inset ;
+    border:5px solid skyblue;
+}
+.text {
+    column-count: 3;
+    column-rule-style:dotted  ;
+    column-rule-color: blueviolet;
+    column-rule-width: 5px;
+    column-gap: 20px;
+
+} 
+ h1{
+    column-span: all;
+ }   
+ 

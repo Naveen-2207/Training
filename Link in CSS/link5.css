@@ -1,0 +1,27 @@
+/*p::first-letter{
+color:blue;
+font-size: xx-large;
+}
+p::first-line{
+color:green;
+font-variant: small-caps;
+}
+::selection{
+color:blue;
+background-color:black;
+}
+::marker{
+color:red;
+}*/
+body{
+background-color:powderblue;
+text-align:center;
+}
+h1::selection{
+color:black;
+}
+.A::selection{
+color:red;
+}
+
+

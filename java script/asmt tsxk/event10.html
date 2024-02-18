@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+	<title></title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<form>
+
+	<h1>Lisiting Data from User</h1>
+
+	<label for="fnum">Fnum</label>
+
+	<input type="number" onkeyup="but()" id="input1"/>
+
+	<select name="select" value="selt" id="selt"></select>
+ 
+	</form>
+
+	</div>
+
+	<script>
+
+	function but(){
+
+	let a = document.getElementById("input1").value;
+
+	a = document.createTextNode(a);
+
+	let b = document.createElement("option");
+
+	let c = document.getElementById("selt");
+
+	b.appendChild(a);
+
+	c.appendChild(b);
+
+	input1.value = ""; 
+
+	}
+
+	</script>
+
+</body>
+
+</html>
+
+	

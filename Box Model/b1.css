@@ -1,0 +1,41 @@
+body{
+background-image: url("https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg");
+background-size: cover;
+background-position: fixed;
+}
+.nav{
+width: 95%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav ul,li{
+display: inline-block;
+margin: 0 10px;
+}
+.nav ul,li,a{
+text-decoration: none;
+color: black;
+}
+button{
+background-color:orange;
+border: none;
+padding: 5px;
+border-radius: 5px;
+}
+.img{
+width: 700px;
+margin-top:10%;
+margin-left:50%;
+}
+.para{
+margin:150px;
+margin-top:-15%;
+font-size:20px;
+line-height:6px;
+}
+.para:first-line{
+font-size:50px;
+}
+

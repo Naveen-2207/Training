@@ -1,0 +1,22 @@
+p::first-letter{
+color:blue;
+font-size: xx-large;
+}
+p::first-line{
+color:green;
+font-variant: small-caps;
+}
+.N::selection{
+color:blue;
+background-color:black;
+}
+::marker{
+color:red;
+}
+h1::before{
+text-align:center;
+content:url("https://t4.ftcdn.net/jpg/01/15/20/75/360_F_115207580_US2etunH78I7iMYHOoNVvxQTCIdoPdRj.jpg");
+}
+.A::after{
+content:url("https://i.pinimg.com/originals/59/58/96/595896b4db0c2d8938068b2e64b0153b.gif");
+}
