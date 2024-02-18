@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body{
+            color: blue;
+            margin: 50px;
+        }
+        body::before{
+            content: 'xs';
+            color: brown;
+            font-size: 25px;
+            font-weight: bold;
+            top: 0%;
+            left: 0%;
+        }
+        @media(min-width: 576px)
+        {
+            body::before{
+                content: 'sm';
+            }
+        }
+        @media(min-width:768px){
+            body::before{
+                content: 'md';
+            }
+        }
+        @media(min-width:992px){
+            body::before{
+                content: 'lg';
+            }
+        }
+        @media(min-width:1200px){
+            body::before{
+                content: 'xl';
+            }
+        }
+        @media(min-width:1400px){
+            body::before{
+                content: 'xxl';
+            }
+        }
+        .container{
+            background-color: rgb(238, 238, 242);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" id="N">
+    <h1>hello</h1>
+    <h2 id="size"></h2>
+    <!-- <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero commodi laudantium provident quo quas sint doloribus. Iusto quae, doloremque voluptatum quos suscipit unde deleniti, aspernatur facere qui ducimus similique perferendis!</P> -->
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        window.onresize=function(event){
+            var width=document.getElementById("N").clientWidth;
+            document.getElementById("size").innerHTML=width;
+        }
+    </script>
+</body>
+</html>
