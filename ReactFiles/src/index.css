@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hed{
+  background-color: aliceblue;
+  color: blue;
+}
+.div{
+  background-image: url("https://wallpapercave.com/wp/wp4024354.jpg");
+
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+}
+
+table{
+  border: 2px dotted red;
+}
+
+tbody th td{
+  border:4px solid green;
+}

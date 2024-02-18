@@ -1,0 +1,8 @@
+.container-fluid{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    margin: 0%;
+    height: 100vh;
+}
+.card{
+    background-color: cadetblue;
+}
