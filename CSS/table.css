@@ -1,0 +1,26 @@
+table,th,td{
+    border: 1px solid rgb(75, 47, 255);
+    border-collapse: collapse;
+}
+table{
+    width: 100px;
+    text-align: center;
+}
+th{
+    background-color:red;
+    height: 25px;
+}
+td{
+    height: 25px;
+    vertical-align: top;
+    padding: 20px;
+}
+tr:nth-child(odd){
+    background-color: chartreuse;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+body{
+    background-image:url(g1.jpg)
+}

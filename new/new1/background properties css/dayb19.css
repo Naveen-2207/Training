@@ -1,0 +1,9 @@
+body{
+   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS66AHhJ9tGm4kSpX1hwZ0DLEdI6aywyQgSww&usqp=CAU);
+   background-color:pink;
+   background-repeat: no-repeat;
+   background-position:100% 100%;
+   background-attachment:fixed;
+   color:maroon;
+   font-size:25px;
+ }

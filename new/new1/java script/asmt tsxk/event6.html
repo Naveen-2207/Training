@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+	<title>Event</title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<label for="fname">Uname</label>
+
+	<input type="text" id="inp1"/>
+
+	<label for="lname">Pass</label>
+
+	<input type="password" id="inp2"/>
+
+	<button onclick="ok()">submit</button>
+
+	</div>
+
+	<script>
+
+	function ok(){
+
+	const inp1 = document.getElementById("inp1").value;
+
+	const inp2 = document.getElementById("inp2").value;
+
+	if(inp1 === null || inp1 === ""){
+
+	alert("One of your data is empty, kindly fill it and try again");
+
+	}
+
+	else if(inp2 === null || inp2 === ""){
+
+	alert("One of your data is empty, kindly fill it and try again");
+
+	}
+
+	else{
+
+	alert("Submit Successful");
+
+	}
+
+	}
+
+	ok();
+
+	</script>
+
+</body>
+
+</html>
