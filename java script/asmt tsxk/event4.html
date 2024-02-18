@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+	<title>Event</title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<label for="fname">fname</label>
+
+	<input type="text" id="inp1"/>
+
+	<label for="lname">lname</label>
+
+	<input type="text" id="inp2"/>
+
+	<button onclick="ok()">submit</button>
+
+	</div>
+
+	<script>
+
+	function ok(){
+
+	const inp1 = document.getElementById("inp1").value;
+
+	const inp2 = document.getElementById("inp2").value;
+
+	if(inp1===inp2){
+
+	alert("Data's are equal");
+
+	}
+
+	else{
+
+	alert("Data's are not equal");
+
+	}
+
+	}
+
+	ok();
+
+	</script>
+
+</body>
+
+</html>

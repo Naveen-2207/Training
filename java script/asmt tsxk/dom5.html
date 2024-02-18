@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+	<title>Events</title>
+
+	<style>
+
+	.container{
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	justify-content: center;
+
+	}
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+	<div class="row">
+
+	<h1>Add To Cart</h1>
+
+	<input type="text" id="cartitemTextinput"/>
+
+	<button id="addbtn" onclick="fun1()">Add</button>
+
+	<h3>My Cart items</h3>
+
+	</div>
+
+	</div> 
+
+	<script>
+
+	function fun1(){
+
+	let inp1 = document.getElementById("cartitemTextinput").value;
+
+	let li = document.createElement("ol");
+
+	li.style.textAlign="center";
+
+	let litext = document.createTextNode(inp1);
+
+	li.appendChild(litext);
+
+	document.body.appendChild(li);
+
+	document.getElementById("cartitemTextinput").value="";
+
+	}
+
+	fun1();
+
+	</script>
+
+</body>
+
+</html>

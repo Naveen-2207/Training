@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+	<title></title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<form>
+
+	<h1>Lisiting Data from User</h1>
+
+	<label for="fnum">Fname</label>
+
+	<input type="name" id="input1"/>
+
+	<label for="dob">D.O.B</label/>
+
+	<input type="date" id="input2"/>
+
+	<input type="button" onClick="but()" value="click"/>
+
+	<label for="pass">Pass</label>
+
+	<input type="password" id="input3"/> 
+ 
+	</form>
+
+	</div>
+
+	<script>
+
+	function but(){
+
+	let a = document.getElementById("input1").value;
+
+	let b = document.getElementById("input2").value;
+
+	let name = a.slice(0,4); 
+
+	let year = new Date(b)
+
+	document.getElementById("input3").value = name+year.getFullYear();;
+
+	input1.value = ""; 
+
+	}
+
+	</script>
+
+</body>
+
+</html>
+
+	
