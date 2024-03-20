@@ -1,0 +1,60 @@
+IMAGE TAGS
+
+<FIGURE>
+<FIG CAPTION>
+<B>
+<I>
+<STRONG>
+<EM
+
+
+
+
+
+
+
+
+
+SEMANTIC TAGS
+
+<HEADER>   <a href="page url">page name</a>
+<NAV>
+<SECTION>
+<ASIDE>
+<ARTICLE>
+<FOOTER>
+<SUMMARY>
+<DETAILS>
+
+
+LIST 
+Three types of lists
+<ol>
+<li>
+
+
+<ordered list> 
+<unordered list>
+<discribution list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

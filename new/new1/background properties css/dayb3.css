@@ -1,0 +1,28 @@
+div.A{
+     background: red;
+
+     background-clip:content-box;
+
+     border:5px dashed black;
+
+     padding: 30px;
+
+}
+div.B{
+     background: blue;
+
+     background-clip:padding-box;
+
+     border:5px dotted black;
+
+     padding: 10px;
+
+}
+div.C{
+     background: green;
+
+     border:5px double;
+
+     padding: 20px;
+
+}

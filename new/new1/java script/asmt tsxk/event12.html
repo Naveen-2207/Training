@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+	<title>event</title>
+
+</head>
+
+<body>
+
+	<div>
+
+	<form>
+
+	<h1>Lisiting Data from User</h1>
+
+	<label for="fnum">Fnum</label>
+
+	<input type="number" id="input1"/>
+
+	<input type="button" value="click" onClick="but()"/>
+
+	<select name="select" id="selt" onChange="eve()"></select>
+ 
+	</form>
+
+	</div>
+
+	<script>
+
+	function but(){
+
+		let a = document.getElementById("input1").value;
+
+		document.getElementById("selt").innerHTML += `<option>${a}</option>`;
+
+		input1.value = ""; 
+
+	}
+
+	function eve(){
+
+		const sel = document.getElementById("selt").value;
+
+		const div1 = document.getElementById("disp");
+	
+		var frm1 = document.createElement("div");
+
+		div1.appendChild(frm1);
+
+		for(let st = 1; st<=sel; st++){ 
+
+		frm1.innerHTML+=`<label for="User">Username</label><input type="text" name="User"/>
+	
+		<label for="Pass">Password</label><input type="text" name="Pass"/><br>`;
+
+		}
+	
+
+	}
+
+	
+
+	</script>
+
+</body>
+
+</html>
+
+	
