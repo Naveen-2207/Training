@@ -1,8 +1,0 @@
-Animation:
-	1.Animation-Name
-	2.Animation-Duration
-	3.Animation-Timing-Funtion
-	4.Animation-Delay
-	5.Animation-Iteration-Count
-	6.Animation-Direction
-	7.Animation-Short Hand Property

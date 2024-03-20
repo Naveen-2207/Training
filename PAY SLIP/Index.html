@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <h1 style="text-align: center;">Pay Slip</h1>
+        <table>
+            <tr>
+                <td><label for="Bpay">Basic Pay:</label></td>
+                <td><input type="text" id="bpay" value="" /></td>
+
+                <td><label for="hra">House Rent Allowance:</label></td>
+                <td><input type="text" id="hra" value="" /></td>
+            </tr>
+            <tr>
+                <td><label for="da">Daily Allowance:</label></td>
+                <td><input type="text" id="da" value="" /></td>
+
+                <td><label for="travel">Travel Expense:</label></td>
+                <td><input type="text" id="travel" value="" /></td>
+            </tr>
+            <tr>
+                <td><label for="pf">Provident Fund:</label></td>
+                <td> <input type="text" id="pf" value="" /></td>
+
+                <td> <label for="gross">gross Salary:</label></td>
+                <td> <input type="text" id="gross" value="" /></td>
+            </tr>
+            <tr>
+                <td><label for="netsal">Net Salary:</label></td>
+                <td> <input type="text" id="netsal" value="" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Print" id="btnid" /></td>
+            </tr>
+        </table>
+        <table border="5px" id="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Basic Salary</th>
+                    <th>Net Salary</th>
+                    <th>Gross Salary</th>
+                    <th>House Rent Allowance</th>
+                    <th>Daily Allowance</th>
+                    <th>Travel Allowance</th>
+                    <th>Provident Fund</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </fieldset>
+
+    <script src="./App.js"></script>
+
+</body>
+
+</html>
