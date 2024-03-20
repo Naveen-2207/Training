@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+	<title>Event</title>
+
+</head>
+
+<body>
+
+	<script>
+
+	function decimals(num, dec){
+
+	if((typeof num !== "number") || (typeof dec !== "number"))
+
+	return false;
+
+	num = parseFloat(num) || 0;
+
+	return num.toFixed(dec);
+
+	}
+
+	console.log(decimals(2.100212, 2));
+
+	console.log(decimals(2.100212, 3));
+
+	console.log(decimals(2100, 2));
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+	<title>destructuring</title>
+
+</head>
+
+<body>
+
+	<script>
+
+	const student={
+
+	firstName: "Naveen", 
+
+	get name(){
+
+	return this.firstName 
+
+	},
+
+	set name(newName){
+
+	this.firstName = newName;
+
+	}
+
+	};
+
+	console.log(student.name);
+
+	student.name="kutty";
+
+	console.log(student.name);
+
+	</script>
