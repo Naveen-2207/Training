@@ -1,0 +1,10 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#table1,tr,td{
+    row-gap: 20px;
+    
+}
