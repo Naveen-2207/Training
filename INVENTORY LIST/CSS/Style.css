@@ -1,0 +1,34 @@
+
+.container{
+    max-width: 400PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+.container .input-groups input{
+    text-align: center;
+    margin-top: 10%;
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+.button-groups input{
+
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
+#itemList{
+    color: white;
+}
+body{
+    margin-top: 10%;
+}
