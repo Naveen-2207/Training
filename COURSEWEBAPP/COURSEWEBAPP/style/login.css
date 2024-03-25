@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+#login1 {
+  background-image: url("https://th.bing.com/th/id/OIP.Y1FstaspXDnGyDKZ5mgsPQHaEK?rs=1&pid=ImgDetMain");
+  width: 100dvw;
+     background-repeat: no-repeat;
+     background-position:center;
+     height: 100dvh;
+     background-size: cover;
+}
+.form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    background-color:rgb(235, 217, 235);
+    border-radius: 10px;
+    padding: 30px;   
+}
+h1{
+    text-align: center;
+    color: #792099;
+}
+.form #btnid{
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-groups{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-groups input{
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding: 5px;
+    /* background-color:; */
+    border: 1px solid aqua;
+}
+.input-groups input:focus{
+    outline: none;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+    justify-content: end;
+}
+.input-groups.error input{
+    border-color: red;
+}
+.input-groups.success input{
+    border-color: green ;
+}
+#userInfo {
+    position: absolute;
+    margin: 20dvh;
+    text-align: center;
+    height: 420px;
+    margin-left: 40dvw;
+    border-radius: 10px;
+    background-color: #792099;
+    padding: 20px;
+    /* border-left: 1px solid #ddd; */
+    width: 300px;
+    display: none;
+    color: white;
+    font-size: 2rem;
+}
+#logoutBtn{
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: aqua;
+}
+#logoutBtn:hover{
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+}
+

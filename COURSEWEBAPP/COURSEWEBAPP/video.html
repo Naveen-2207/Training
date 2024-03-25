@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style/login.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/dashboard.css">
+    <link rel="stylesheet" href="style/courses.css">
+    <link rel="stylesheet" href="style/video.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="sidenav">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/sj-1-logo-svg-vector.svg" alt="" class="imgsvg">
+            <ul class="menu">
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="./faq.html">Progress</a></li>
+                <li><a href="./login.html">login</a></li>
+            </ul>
+        </div>
+        <div class="watermark" id="video1">
+            <div id="display">
+            </div>
+            <div id="completebtn"></div>
+        </div>
+    </div>
+
+    <script src="courses.js">
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const courseIndex = urlParams.get('courseIndex');
+            let courses = JSON.parse(localStorage.getItem("courses"));
+            const course = courses[courseIndex];
+
+            if (course) {
+                const displayDiv = document.getElementById("display");
+                displayDiv.innerHTML = course.Video;
+            }
+
+            // Create the "COMPLETED" button
+            let completebtn = document.createElement("input");
+            completebtn.setAttribute("type", "button");
+            completebtn.setAttribute("value", "COMPLETED");
+            completebtn.setAttribute("id", "combtn");
+            document.getElementById("completebtn").appendChild(completebtn);
+
+            // Add an event listener to the "COMPLETED" button
+            completebtn.addEventListener('click', function () {
+                // Update the course's completion status
+                if (course) {
+                    course.isCompleted = true; // Assuming you have an isCompleted property
+
+                    // Retrieve the existing array of completed courses from localStorage
+                    let completedCourses = JSON.parse(localStorage.getItem("completedCourses")) || [];
+
+                    // Add the completed course to the array
+                    completedCourses.push(course);
+
+                    // Save the updated array back to localStorage
+                    localStorage.setItem("completedCourses", JSON.stringify(completedCourses));
+
+                    // Optionally, you can show a message or redirect the user
+                    alert("Course marked as completed!");
+                    let completedcount = JSON.parse(localStorage.getItem("completedCourses"))
+                    completedcount.map((value, index) => {
+                        console.log(index);
+                        localStorage.setItem("completedcount", index + 1)
+                    })
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    background-color:rgb(235, 217, 235);
+    border-radius: 10px;
+    padding: 30px;   
+}
+h1{
+    text-align: center;
+    color: #792099;
+}
+.form #btnid{
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.input-groups{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-groups input{
+    border-radius: 5px;
+    font-size: px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid aqua;
+}
+.input-groups input:focus{
+    outline: none;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+    justify-content: end;
+}
+.input-groups.error input{
+    border-color: red;
+}
+.input-groups.success input{
+    border-color: green ;
+}
+#err{
+    margin-bottom: 1em;
+}
+
+#register1 {
+    background-image: url("https://th.bing.com/th/id/OIP.Y1FstaspXDnGyDKZ5mgsPQHaEK?rs=1&pid=ImgDetMain");
+    width: 100dvw;
+       background-repeat: no-repeat;
+       background-position:center;
+       height: 100dvh;
+       background-size: cover;
+  }
+.container{
+    margin-top: -100px;
+}
+.faq-section{
+    margin-left: 20rem;
+    height: 100dvh;   
+}

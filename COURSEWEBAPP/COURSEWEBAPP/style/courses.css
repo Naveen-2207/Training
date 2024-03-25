@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.d-flex{
+    display: flex;
+    
+}
+.courses{
+    width: 30dvw;
+
+}
+#coursecard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80dvw;
+    margin-left: 15rem;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+.coursecard{
+    width: 20dvw;
+    margin: 10px;
+    /* height: 60dvh; */
+    background-color: rgb(168, 122, 190);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#coursecard img{
+    width: 10rem;
+}
+.coursename{
+    font-size: 30px;
+    font-weight: 800;
+}
+.courseduration{
+    font-size: 20px;
+    color: rgb(235, 8, 8);
+    padding: 5px;
+    font-weight: 700;
+}
+.enrollbtn{
+    text-align: right;
+    border-radius: 5px;
+    background-color: burlywood;
+    outline: none;
+    box-shadow: 1px 1px 1px 0.5px lightgrey;
+    padding: 10px;
+    font-weight: bolder;
+    border-color: burlywood;
+}
+.enrollbtn:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+.startlearn{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: brown;
+    color: aliceblue;
+    margin: 10px;
+}
+.startlearn:hover{
+    cursor: pointer;
+    color: chartreuse;
+    transform: scale(1.1);
+    transition-duration: 1ms;
+}

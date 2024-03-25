@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.sidenav{
+    width: 250px;
+    height: 100dvh;
+    padding-left: 20px;
+    background-color: rgb(88, 195, 199, 1);
+    position: fixed;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    font-size: 1.5em;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: white;
+    border-radius: 50% 0 0 50%;
+    cursor: pointer;
+}
+.imgsvg{
+    width: 10em;
+    position: relative;
+    left:10%;
+}
+.watermark{
+     background: url('/assets/images/skilljet-logo-2.png' ) rgba(0, 0, 0, 0.1) no-repeat 0 50%;
+     width: 100dvw;
+     /* height: 100dvh; */
+     background-repeat: no-repeat;
+     background-position:center;
+     background-attachment: fixed;
+     /* position: fixed; */
+}
+.banner{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
